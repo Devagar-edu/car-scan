@@ -8,8 +8,9 @@ Verified against live site structure (April 2026):
   KM/fuel in subtitle: "21,321 km | Petrol | Location"
   Year embedded in h3 title: "2023 BMW iX xDrive 40"
 - Spinny: /used-cars-in-chennai/s/ — React SPA; uses internal REST API
-  API: https://www.spinny.com/api/v2/car_listing/?city=chennai&page=1
+  API: https://api.spinny.com/v3/api/listing/v6/?city=chennai&page=1
   Price format: numeric in JSON (e.g. 649000 = Rs 6.49 Lakh)
+  Field names: make, model, variant, mileage, make_year, price, fuel_type, permanent_url
 """
 
 import asyncio
@@ -40,10 +41,20 @@ def _parse_price(text: str) -> Optional[float]:
       "Rs.1.95Crore"       -> 195.0
       "64 Lakh"            -> 64.0
       "649000"             -> 6.49   (raw rupees integer from Spinny API)
+      649000.0 (float)     -> 6.49   (raw rupees float from Spinny API)
       "6.49"               -> 6.49   (already in lakhs)
     """
     if not text:
         return None
+
+    # Handle numeric input (int or float) directly
+    if isinstance(text, (int, float)):
+        val = float(text)
+        # Raw rupees (Spinny API returns e.g. 649000.0)
+        if val >= 100000:  # Changed from > 10000 to >= 100000 for better threshold
+            return round(val / 100000, 2)
+        # Already in lakhs (e.g. 6.49, 12.5, 64.0)
+        return round(val, 2)
 
     s = str(text).strip()
     # Normalize: remove currency symbols, commas
@@ -64,7 +75,7 @@ def _parse_price(text: str) -> Optional[float]:
     if plain:
         val = float(plain.group(1))
         # Raw rupees (Spinny API returns e.g. 649000)
-        if val > 10000:
+        if val >= 100000:  # Changed from > 10000 to >= 100000 for better threshold
             return round(val / 100000, 2)
         # Already in lakhs (e.g. 6.49, 12.5)
         return round(val, 2)
@@ -128,6 +139,8 @@ async def _scrape_carwale_page(page: Page, url: str) -> List[Dict]:
 
         # Strategy 1: Try structured selectors (order: most specific first)
         card_selectors = [
+            "div.ctofvW",  # Updated: actual listing cards on current CarWale site
+            "div[class*='card']",
             "li[class*='listing']",
             "li[class*='card']",
             "div[class*='cardContent']",
@@ -153,10 +166,18 @@ async def _scrape_carwale_page(page: Page, url: str) -> List[Dict]:
                     )
                     price_raw = (await price_el.inner_text()).strip() if price_el else ""
 
-                    # Subtitle: "km | fuel | location"
-                    subtitle_el = await card.query_selector(
-                        "p, [class*='subtitle'], [class*='specs'], [class*='detail'], [class*='info']"
-                    )
+                    # Subtitle: "km | fuel | location" - try multiple selectors
+                    subtitle_el = None
+                    for subtitle_sel in ["span", "p", "[class*='subtitle']", "[class*='specs']", "[class*='detail']", "[class*='info']"]:
+                        candidates = await card.query_selector_all(subtitle_sel)
+                        for candidate in candidates:
+                            candidate_text = await candidate.inner_text()
+                            if "km" in candidate_text.lower() and "|" in candidate_text:
+                                subtitle_el = candidate
+                                break
+                        if subtitle_el:
+                            break
+                    
                     subtitle = (await subtitle_el.inner_text()).strip() if subtitle_el else ""
 
                     # If no price from element, scan card text
@@ -204,47 +225,110 @@ async def _scrape_carwale_page(page: Page, url: str) -> List[Dict]:
 
 
 def _fallback_parse_carwale(html: str, base_url: str) -> List[Dict]:
-    """Regex fallback parser — works against verified CarWale live HTML."""
+    """
+    Regex fallback parser with per-card chunking to prevent misalignment.
+    
+    Splits HTML into per-card chunks before running regexes to ensure
+    km figures from distance-to-dealer text don't get matched before
+    listing-specific km figures.
+    """
     listings = []
 
-    # Titles from h3/h2: ">2023 BMW iX xDrive 40<"
-    titles = re.findall(r'<h[23][^>]*>\s*(20\d{2}\s+[A-Z][^<]{4,60}?)\s*</h[23]>', html)
-
-    # Prices: "Rs. 64 Lakh" or "Rs. 1.95 Crore"
-    prices = re.findall(r'Rs\.?\s*([\d,.]+\s*(?:Lakh|Crore|lakh|crore))', html)
-
-    # KM: "21,321 km"
-    kms = re.findall(r'([\d,]+)\s*km\b', html, re.IGNORECASE)
-
-    # Fuel from pipe-separated spec strings
-    fuels = re.findall(r'\|\s*(Petrol|Diesel|CNG|Electric|Hybrid|LPG|Plug-in Hybrid)\s*\|', html)
-
-    # Links
-    links = re.findall(r'href="(/used/chennai/[a-z0-9-]+/[a-z0-9]+/)"', html)
-
-    count = min(max(len(titles), 1), 25)
-    for i in range(count):
-        title = titles[i] if i < len(titles) else f"Car {i+1}"
-        price_raw = "Rs. " + prices[i] if i < len(prices) else ""
-        km_raw = kms[i] if i < len(kms) else None
-        fuel = fuels[i] if i < len(fuels) else "Unknown"
-        href = links[i] if i < len(links) else ""
-
-        price = _parse_price(price_raw)
-        km = _parse_km(km_raw)
-        year = _parse_year(title)
-
-        if title and price and price > 0:
-            listings.append({
-                "title": title,
-                "price": price,
-                "km": km,
-                "year": year,
-                "fuel_type": _parse_fuel(fuel),
-                "link": f"https://www.carwale.com{href}" if href else base_url,
-                "source": "CarWale",
-                "scraped_at": datetime.now().isoformat()
-            })
+    # Strategy 1: Try to extract from structured data (JSON-LD)
+    # CarWale embeds structured data with accurate price/km/year
+    json_ld_pattern = re.findall(
+        r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+        html,
+        re.DOTALL
+    )
+    
+    for json_str in json_ld_pattern:
+        try:
+            data = json.loads(json_str)
+            # Handle both single object and array
+            items = [data] if isinstance(data, dict) else data if isinstance(data, list) else []
+            
+            for item in items:
+                if item.get('@type') in ['Car', 'Vehicle', 'Product']:
+                    title = item.get('name', '')
+                    year = item.get('vehicleModelDate') or _parse_year(title)
+                    
+                    # Price from offers
+                    offers = item.get('offers', {})
+                    price_val = offers.get('price') if isinstance(offers, dict) else None
+                    price = _parse_price(price_val) if price_val else None
+                    
+                    # KM from mileageFromOdometer
+                    km_val = item.get('mileageFromOdometer', {}).get('value') if isinstance(item.get('mileageFromOdometer'), dict) else None
+                    km = float(km_val) if km_val else None
+                    
+                    # Fuel type
+                    fuel = item.get('fuelType', 'Unknown')
+                    
+                    # URL
+                    url_val = item.get('url', base_url)
+                    
+                    if title and price and price > 0:
+                        listings.append({
+                            "title": title,
+                            "price": price,
+                            "km": km,
+                            "year": int(year) if year else None,
+                            "fuel_type": _parse_fuel(fuel),
+                            "link": url_val if url_val.startswith('http') else f"https://www.carwale.com{url_val}",
+                            "source": "CarWale",
+                            "scraped_at": datetime.now().isoformat()
+                        })
+        except (json.JSONDecodeError, KeyError, TypeError) as e:
+            logger.debug(f"CarWale JSON-LD parse error: {e}")
+            continue
+    
+    # Strategy 2: Per-card regex extraction (if JSON-LD didn't work)
+    if not listings:
+        # Split HTML into card chunks
+        # Try multiple split patterns
+        card_chunks = []
+        for pattern in [r'<li[^>]*class="[^"]*(?:listing|card)[^"]*"[^>]*>',
+                       r'<article[^>]*>',
+                       r'<div[^>]*class="[^"]*(?:cardContent|listing)[^"]*"[^>]*>']:
+            card_chunks = re.split(pattern, html)
+            if len(card_chunks) > 5:  # Found a good split pattern
+                break
+        
+        # If no good split found, fall back to old behavior but limit to first 25 matches
+        if len(card_chunks) <= 5:
+            card_chunks = [html]  # Treat whole page as one chunk
+        
+        for chunk in card_chunks[:30]:  # Process max 30 chunks
+            # Extract from this chunk only
+            title_match = re.search(r'<h[23][^>]*>\s*(20\d{2}\s+[A-Z][^<]{4,60}?)\s*</h[23]>', chunk)
+            price_match = re.search(r'Rs\.?\s*([\d,.]+\s*(?:Lakh|Crore|lakh|crore))', chunk)
+            km_match = re.search(r'([\d,]+)\s*km\b', chunk, re.IGNORECASE)
+            fuel_match = re.search(r'\|\s*(Petrol|Diesel|CNG|Electric|Hybrid|LPG|Plug-in Hybrid)\s*\|', chunk)
+            link_match = re.search(r'href="(/used/chennai/[a-z0-9-]+/[a-z0-9]+/)"', chunk)
+            
+            if title_match:
+                title = title_match.group(1)
+                price_raw = "Rs. " + price_match.group(1) if price_match else ""
+                km_raw = km_match.group(1) if km_match else None
+                fuel = fuel_match.group(1) if fuel_match else "Unknown"
+                href = link_match.group(1) if link_match else ""
+                
+                price = _parse_price(price_raw)
+                km = _parse_km(km_raw)
+                year = _parse_year(title)
+                
+                if title and price and price > 0:
+                    listings.append({
+                        "title": title,
+                        "price": price,
+                        "km": km,
+                        "year": year,
+                        "fuel_type": _parse_fuel(fuel),
+                        "link": f"https://www.carwale.com{href}" if href else base_url,
+                        "source": "CarWale",
+                        "scraped_at": datetime.now().isoformat()
+                    })
 
     logger.info(f"CarWale regex fallback: {len(listings)} listings from {base_url}")
     return listings
@@ -300,14 +384,18 @@ async def scrape_carwale(max_pages: int = 3) -> List[Dict]:
 # Response JSON keys: carName, price (raw rupees int), kms_driven, make_year, fuel_type, car_slug
 # ─────────────────────────────────────────────────────────────────────────────
 
-SPINNY_API = "https://www.spinny.com/api/v2/car_listing/"
-SPINNY_PARAMS = "?city=chennai&page={page}&page_size=24&ordering=-created_at"
+SPINNY_API = "https://api.spinny.com/v3/api/listing/v6/"
+SPINNY_PARAMS = "?city=chennai&product_type=cars&category=used&page={page}&size=20&show_max_on_assured=true&custom_budget_sort=true&ratio_status=available&prioritize_filter_listing=true&high_intent_required=true&active_banner=true&added_in_inventory=true"
 
 
 async def _fetch_spinny_api(page: Page, api_url: str) -> List[Dict]:
     """Call Spinny's internal REST API via Playwright request context."""
     listings = []
     try:
+        # Generate anonymous-id (timestamp-based)
+        import time
+        anonymous_id = f"{int(time.time())}.{int(time.time())}"
+        
         response = await page.request.get(
             api_url,
             timeout=TIMEOUT_MS,
@@ -315,6 +403,9 @@ async def _fetch_spinny_api(page: Page, api_url: str) -> List[Dict]:
                 "Accept": "application/json",
                 "Referer": "https://www.spinny.com/",
                 "X-Requested-With": "XMLHttpRequest",
+                "anonymous-id": anonymous_id,
+                "platform": "web",
+                "content-type": "application/json",
             }
         )
         if response.status != 200:
@@ -322,20 +413,24 @@ async def _fetch_spinny_api(page: Page, api_url: str) -> List[Dict]:
             return listings
 
         data = await response.json()
-        # API returns: {"count": N, "results": [...]} or {"data": [...]}
-        cars = data.get("results") or data.get("data") or []
+        # API returns: {"count": N, "results": [...]} or {"data": [...]} or {"listings": [...]}
+        cars = data.get("results") or data.get("data") or data.get("listings") or []
 
         for car in cars:
             try:
+                # Build title from make, model, variant (new API structure)
+                make = car.get("make", "")
+                model = car.get("model", "")
+                variant = car.get("variant", "")
+                year_val = car.get("make_year") or car.get("registration_year") or car.get("year")
+                
+                # Try multiple title formats
                 title = (
                     car.get("carName")
                     or car.get("car_name")
                     or car.get("title")
-                    or "{} {} {}".format(
-                        car.get("make_year", ""),
-                        car.get("brand", ""),
-                        car.get("model", "")
-                    ).strip()
+                    or f"{year_val} {make} {model} {variant}".strip()
+                    or f"{make} {model} {variant}".strip()
                 )
 
                 raw_price = (
@@ -346,23 +441,46 @@ async def _fetch_spinny_api(page: Page, api_url: str) -> List[Dict]:
                 )
                 price = _parse_price(str(raw_price))
 
-                km_val = car.get("kms_driven") or car.get("km_driven") or car.get("odometer")
+                # Try multiple km field names
+                km_val = (
+                    car.get("mileage")
+                    or car.get("kms_driven")
+                    or car.get("km_driven")
+                    or car.get("odometer")
+                    or car.get("round_off_mileage")
+                )
                 km = float(km_val) if km_val else None
 
-                year_val = car.get("make_year") or car.get("year")
                 year = int(year_val) if year_val else _parse_year(title)
 
                 fuel = car.get("fuel_type") or car.get("fuel") or "Unknown"
-                slug = car.get("car_slug") or car.get("slug") or ""
+                
+                # Try multiple slug/URL field names
+                slug = (
+                    car.get("permanent_url")
+                    or car.get("car_slug")
+                    or car.get("slug")
+                    or ""
+                )
 
                 if title and price and price > 0:
+                    # Build link from permanent_url or slug
+                    if slug and slug.startswith("/"):
+                        link = f"https://www.spinny.com{slug}"
+                    elif slug and not slug.startswith("http"):
+                        link = f"https://www.spinny.com/buy-used-{slug}/"
+                    elif slug:
+                        link = slug
+                    else:
+                        link = "https://www.spinny.com/used-cars-in-chennai/s/"
+                    
                     listings.append({
                         "title": title,
                         "price": price,
                         "km": km,
                         "year": year,
                         "fuel_type": _parse_fuel(fuel),
-                        "link": f"https://www.spinny.com/buy-used-{slug}/" if slug else "https://www.spinny.com/used-cars-in-chennai/s/",
+                        "link": link,
                         "source": "Spinny",
                         "scraped_at": datetime.now().isoformat()
                     })
@@ -385,12 +503,13 @@ async def _scrape_spinny_browser(page: Page) -> List[Dict]:
 
     async def on_response(resp):
         try:
-            if ("api" in resp.url or "car_listing" in resp.url) and resp.status == 200:
+            if ("api" in resp.url or "car_listing" in resp.url or "listing" in resp.url) and resp.status == 200:
                 ct = resp.headers.get("content-type", "")
                 if "json" in ct:
                     body = await resp.body()
                     text = body.decode("utf-8", errors="ignore")
-                    if "carName" in text or "kms_driven" in text:
+                    # Updated filter to match new field names: make, model, mileage, make_year
+                    if any(key in text for key in ["make", "model", "mileage", "make_year", "carName", "kms_driven"]):
                         captured.append(text)
         except Exception:
             pass
@@ -409,22 +528,58 @@ async def _scrape_spinny_browser(page: Page) -> List[Dict]:
         for text in captured:
             try:
                 data = json.loads(text)
-                cars = data.get("results") or data.get("data") or []
+                cars = data.get("results") or data.get("data") or data.get("listings") or []
                 for car in cars:
-                    title = car.get("carName") or car.get("car_name") or car.get("title") or ""
+                    # Build title from make, model, variant
+                    make = car.get("make", "")
+                    model = car.get("model", "")
+                    variant = car.get("variant", "")
+                    year_val = car.get("make_year") or car.get("registration_year") or car.get("year")
+                    
+                    title = (
+                        car.get("carName")
+                        or car.get("car_name")
+                        or car.get("title")
+                        or f"{year_val} {make} {model} {variant}".strip()
+                        or f"{make} {model} {variant}".strip()
+                    )
+                    
                     raw_price = car.get("price") or car.get("selling_price") or 0
                     price = _parse_price(str(raw_price))
-                    km_val = car.get("kms_driven") or car.get("km_driven")
+                    
+                    km_val = (
+                        car.get("mileage")
+                        or car.get("kms_driven")
+                        or car.get("km_driven")
+                        or car.get("round_off_mileage")
+                    )
                     km = float(km_val) if km_val else None
-                    year_val = car.get("make_year") or car.get("year")
+                    
                     year = int(year_val) if year_val else _parse_year(title)
                     fuel = car.get("fuel_type") or "Unknown"
-                    slug = car.get("car_slug") or ""
+                    
+                    slug = (
+                        car.get("permanent_url")
+                        or car.get("car_slug")
+                        or car.get("slug")
+                        or ""
+                    )
+                    
                     if title and price and price > 0:
+                        # Build link from permanent_url or slug
+                        if slug and slug.startswith("/"):
+                            link = f"https://www.spinny.com{slug}"
+                        elif slug and not slug.startswith("http"):
+                            link = f"https://www.spinny.com/buy-used-{slug}/"
+                        elif slug:
+                            link = slug
+                        else:
+                            link = url
+                        
                         listings.append({
                             "title": title, "price": price, "km": km,
                             "year": year, "fuel_type": _parse_fuel(fuel),
-                            "link": f"https://www.spinny.com/buy-used-{slug}/" if slug else url,
+                            "link": link,
                             "source": "Spinny",
                             "scraped_at": datetime.now().isoformat()
                         })
@@ -452,14 +607,38 @@ def _fallback_parse_spinny(html: str, base_url: str) -> List[Dict]:
             nd = json.loads(next_data_match.group(1))
             # Navigate into pageProps to find car data
             props = nd.get("props", {}).get("pageProps", {})
-            cars = props.get("carList") or props.get("cars") or props.get("listings") or []
+            # Try multiple possible paths for car list
+            cars = (
+                props.get("carList")
+                or props.get("cars")
+                or props.get("listings")
+                or props.get("results")
+                or props.get("initialData", {}).get("cars")
+                or props.get("initialData", {}).get("results")
+                or []
+            )
             for car in cars:
                 if isinstance(car, dict):
-                    title = car.get("carName") or car.get("title") or ""
+                    # Build title from make, model, variant
+                    make = car.get("make", "")
+                    model = car.get("model", "")
+                    variant = car.get("variant", "")
+                    year_val = car.get("make_year") or car.get("registration_year") or car.get("year")
+                    
+                    title = (
+                        car.get("carName")
+                        or car.get("car_name")
+                        or car.get("title")
+                        or f"{year_val} {make} {model} {variant}".strip()
+                        or f"{make} {model} {variant}".strip()
+                    )
+                    
                     raw_price = car.get("price") or 0
                     price = _parse_price(str(raw_price))
-                    km = float(car.get("kms_driven") or 0) or None
-                    year = int(car.get("make_year") or 0) or _parse_year(title)
+                    
+                    km = float(car.get("mileage") or car.get("kms_driven") or 0) or None
+                    year = int(year_val) if year_val else _parse_year(title)
+                    
                     if title and price and price > 0:
                         listings.append({
                             "title": title, "price": price, "km": km, "year": year,
@@ -470,13 +649,15 @@ def _fallback_parse_spinny(html: str, base_url: str) -> List[Dict]:
         except Exception as e:
             logger.debug(f"Spinny __NEXT_DATA__ parse error: {e}")
 
-    # Raw JSON pattern fallback
+    # Raw JSON pattern fallback - try both old and new field names
     if not listings:
-        pattern = re.findall(
-            r'"(?:carName|car_name|title)"\s*:\s*"([^"]{6,60})"[^}]{0,400}"price"\s*:\s*(\d{4,8})',
+        # Try new field names: make, model, variant, price
+        pattern_new = re.findall(
+            r'"(?:make)"\s*:\s*"([^"]+)"[^}]{0,200}"(?:model)"\s*:\s*"([^"]+)"[^}]{0,200}"price"\s*:\s*(\d{4,8})',
             html, re.DOTALL
         )
-        for title, price_str in pattern[:25]:
+        for make, model, price_str in pattern_new[:25]:
+            title = f"{make} {model}".strip()
             price = _parse_price(price_str)
             year = _parse_year(title)
             if price:
@@ -485,6 +666,22 @@ def _fallback_parse_spinny(html: str, base_url: str) -> List[Dict]:
                     "fuel_type": "Unknown", "link": base_url, "source": "Spinny",
                     "scraped_at": datetime.now().isoformat()
                 })
+        
+        # Try old field names: carName, car_name, title
+        if not listings:
+            pattern_old = re.findall(
+                r'"(?:carName|car_name|title)"\s*:\s*"([^"]{6,60})"[^}]{0,400}"price"\s*:\s*(\d{4,8})',
+                html, re.DOTALL
+            )
+            for title, price_str in pattern_old[:25]:
+                price = _parse_price(price_str)
+                year = _parse_year(title)
+                if price:
+                    listings.append({
+                        "title": title, "price": price, "km": None, "year": year,
+                        "fuel_type": "Unknown", "link": base_url, "source": "Spinny",
+                        "scraped_at": datetime.now().isoformat()
+                    })
 
     logger.info(f"Spinny regex fallback: {len(listings)} listings")
     return listings

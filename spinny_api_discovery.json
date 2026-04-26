@@ -1,0 +1,886 @@
+[
+  {
+    "method": "GET",
+    "url": "https://www.spinny.com/used-cars-in-chennai/s/",
+    "headers": {
+      "accept-language": "en-IN",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "resource_type": "document"
+  },
+  {
+    "method": "GET",
+    "url": "https://spn-sta.spinny.com/spinny-web/static-images/assets/images/components/SpinnyMarketingBanner/assets/desktop_spinny_capital.jpg?q=85",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/user/me/v3/",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/listing/v6/?city=chennai&product_type=cars&category=used&availability=available,booked&page=1&custom_budget_sort=true&prioritize_filter_listing=true&high_intent_required=true&active_banner=true&added_in_inventory=true&is_pulse_exp=false&is_new_price=false",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/page_data/reviews/?city=&productType=demand&page=1&pageSize=10&disableCityCheck=false&sendOnlyEnabledReviews=true",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/listing/light/v5?city=coimbatore&product_type=cars&category=used&&page=1&availability=available",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/listing/v6/?city=chennai&product_type=cars&category=used&availability=available,booked&page=1&show_max_on_assured=true&custom_budget_sort=true&prioritize_filter_listing=true&high_intent_required=true&active_banner=true&added_in_inventory=true&is_pulse_exp=false&is_new_price=false",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "procurement-category": "assured,luxury",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/page_data/reviews/?city=chennai&productType=demand&page=1&pageSize=10&disableCityCheck=false&sendOnlyEnabledReviews=true",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://growthbook-api.spinnyworks.in/api/features/sdk-jXXbVSy2evT18TBu",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.growthbook.io/api/features/sdk-ip1YRKHGkAb2g1Nj",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://spn-sta.spinny.com/spinny-web/static-images/assets/images/components/SpinnyMarketingBanner/assets/spinny-capital-v2.svg?q=85&w=118",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He64m2v831444436za200zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117266400~117384406~118167060&apve=1&apvf=f&apvc=1&tft=1777115657541&tfd=2621",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://q.quora.com/_/ad/872fdf2567744558ac572c5010b979eb/pixel?tag=ViewContent&i=gtm&u=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://wsdk-files.webengage.com/webengage/~10a5cad0b/v4.js",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://z10a5cad0b.webengage.co/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/737731108/?random=1777115657710&cv=11&fst=1777115657710&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v9215008426z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~117266400~117384405~118167058&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=3&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/737731108/?random=1777115657710&cv=11&fst=1777115657710&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v9215008426z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~117266400~117384405~118167058&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=3&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&en=page_view&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&gtm=45be64m2v9215008426z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~117266400~117384405~118167058&apve=1&apvf=f&apvc=0&tids=AW-737731108&tid=AW-737731108&tft=1777115657748&tfd=2828",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/957961090/?random=1777115657762&cv=11&fst=1777115657762&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/957961090/?random=1777115657762&cv=11&fst=1777115657762&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/957961090/?random=1777115657800&cv=11&fst=1777115657800&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_pagetype%3Dsearchresults&rfmt=3&fmt=4",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/957961090/?random=1777115657800&cv=11&fst=1777115657800&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_pagetype%3Dsearchresults&gcp=5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/957961090/?random=1777115657808&cv=11&fst=1777115657808&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=4",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/957961090/?random=1777115657808&cv=11&fst=1777115657808&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&gcp=5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/957961090/?random=1777115657810&cv=11&fst=1777115657810&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=4",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/957961090/?random=1777115657810&cv=11&fst=1777115657810&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&gcp=5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&en=page_view&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&apve=1&apvf=f&apvc=0&tids=AW-957961090&tid=AW-957961090&tft=1777115657812&tfd=2893",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&ae=g&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&ep.dynx_pagetype=searchresults&_tu=CA&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&apve=1&apvf=f&apvc=0&tids=AW-957961090&tid=AW-957961090&tft=1777115657813&tfd=2893",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&ae=g&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&ep.dynx_pagetype=searchresults_undefined&epn.dynx_totalvalue=0&_tu=CA&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&apve=1&apvf=f&apvc=0&tids=AW-957961090&tid=AW-957961090&tft=1777115657813&tfd=2893",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-WQREN8TJ7R&gtm=45je64m2v880374642z8831444436za20gzb831444436zd831444436&_p=1777115656991&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAACGA&_prs=wg&are=1&cid=1024547138.1777115658&frm=0&pscdl=noapi&rcb=3&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=0~115616985~115938465~115938469~117266401~117512543&uid=NA&sid=1777115657&sct=1&seg=0&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=2922",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-WQREN8TJ7R&gtm=45je64m2v880374642z8831444436za20gzb831444436zd831444436&_p=1777115656991&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&are=1&cid=1024547138.1777115658&frm=0&pscdl=noapi&rcb=3&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=2&tag_exp=0~115616985~115938465~115938469~117266401~117512543&uid=NA&sid=1777115657&sct=1&seg=0&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&_tu=CA&en=user_location_status&ep.eventCategory=api_success&ep.componentTitle=&ep.eventValue=%7B%22location_status%22%3A%7B%22allowed%22%3Anull%2C%22denied%22%3Anull%2C%22not_available%22%3Atrue%7D%2C%22location%22%3A%7B%22lat%22%3A%22undefined%22%2C%22long%22%3A%22undefined%22%7D%2C%22on_mount%22%3Atrue%7D&ep.componentSubTitle=&ep.additionalAttribute=&ep.buyLeadId=&ep.platformType=web&ep.loginStatus=false&ep.businessUnit=spinny&ep.pageName=&ep.moduleName=&ep.pagePath=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&ep.deviceId=NA&ep.previousPage=&ep.hashedNumber=NA&_et=33&tfd=2962",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-WQREN8TJ7R&gtm=45je64m2v880374642z8831444436za20gzb831444436zd831444436&_p=1777115656991&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&_prs=wg&are=1&cid=1024547138.1777115658&frm=0&pscdl=noapi&rcb=3&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=3&tag_exp=0~115616985~115938465~115938469~117266401~117512543&uid=NA&sid=1777115657&sct=1&seg=0&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&en=listing_page_view&_c=1&ep.eventCategory=page_view&ep.componentTitle=listing&ep.eventValue=&ep.componentSubTitle=&ep.additionalAttribute=%7B%22reactVersion%22%3A%22v19%22%7D&ep.buyLeadId=&ep.platformType=web&ep.loginStatus=false&ep.businessUnit=spinny&ep.pageName=listing&ep.moduleName=listing&ep.pagePath=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&ep.deviceId=NA&ep.previousPage=&ep.hashedNumber=NA&_et=2&tfd=2963",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&en=user_id_update&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&ep.ads_data_redaction=0&ga_uid=G-WQREN8TJ7R.NA&gtm=45He64m2v831444436za200zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938468~117266400~117384406~118167060&apve=1&apvf=f&apvc=1&tft=1777115657890&tfd=2970",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/957961090/?random=1777115657762&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9kp17e1d4jpq9OtjvGzVhWmZAx6DB4uRu2byzowVv8gBuXToVShCpPjIVq9gvZJTd3ZkJjanx7Cs5Q_JR629YS3TJdhsmzq2KwmY&random=3357325461&rmt_tld=0&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.co.uk/pagead/1p-user-list/957961090/?random=1777115657762&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9kp17e1d4jpq9OtjvGzVhWmZAx6DB4uRu2byzowVv8gBuXToVShCpPjIVq9gvZJTd3ZkJjanx7Cs5Q_JR629YS3TJdhsmzq2KwmY&random=3357325461&rmt_tld=1&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/957961090/?random=1777115657800&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_pagetype%3Dsearchresults&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9TH57kxbkn7Qv2HToo1cCAVvJCDUbaZuJAr7sdxVEv75S7vY4Iv6Iqvdx7MDT9YTB6p6xvozr9fwOzX-geeAG8S-ByQEc-B8Kh18&random=286319472&rmt_tld=0&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.co.uk/pagead/1p-user-list/957961090/?random=1777115657800&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_pagetype%3Dsearchresults&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9TH57kxbkn7Qv2HToo1cCAVvJCDUbaZuJAr7sdxVEv75S7vY4Iv6Iqvdx7MDT9YTB6p6xvozr9fwOzX-geeAG8S-ByQEc-B8Kh18&random=286319472&rmt_tld=1&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/737731108/?random=1777115657710&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v9215008426z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~117266400~117384405~118167058&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=3&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9z9weG33fsll3xjKx3Jo_Uq4SFTpD7gr_-MHThg6zBiTfFp_cXb5QRB8KBbx8fEKmo5p-59Dqi51wtC4-Vq0Y5vINrwGNGCIW9B4&random=176612988&rmt_tld=0&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.co.uk/pagead/1p-user-list/737731108/?random=1777115657710&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64m2v9215008426z8831444436za20gzb831444436zd831444436xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~117266400~117384405~118167058&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=3&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9z9weG33fsll3xjKx3Jo_Uq4SFTpD7gr_-MHThg6zBiTfFp_cXb5QRB8KBbx8fEKmo5p-59Dqi51wtC4-Vq0Y5vINrwGNGCIW9B4&random=176612988&rmt_tld=1&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/957961090/?random=1777115657808&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9gkDxwBnvfLqrsV3x9wH6wBxRliBPt4TTHES9bttKsx6qhRe5cnwQzcXCq65WP6go4jo3Xnm5lALPzBZUwwaZt4uD_Y_VXYCNr6E&random=3505817214&rmt_tld=0&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.co.uk/pagead/1p-user-list/957961090/?random=1777115657808&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9gkDxwBnvfLqrsV3x9wH6wBxRliBPt4TTHES9bttKsx6qhRe5cnwQzcXCq65WP6go4jo3Xnm5lALPzBZUwwaZt4uD_Y_VXYCNr6E&random=3505817214&rmt_tld=1&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/957961090/?random=1777115657810&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9rw07-b__juAwCMDDE4JaL37WRJ8fuYPaxU34TZtz2GLz8DUiWu-hYEjv-xFa3ZHQuYWOFcUr9uyrJzvbOXKg_5sJY0nC9-Y5wdY&random=4131734437&rmt_tld=0&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.co.uk/pagead/1p-user-list/957961090/?random=1777115657810&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=3&is_vtc=1&cid=CAQSTwAFq6B9rw07-b__juAwCMDDE4JaL37WRJ8fuYPaxU34TZtz2GLz8DUiWu-hYEjv-xFa3ZHQuYWOFcUr9uyrJzvbOXKg_5sJY0nC9-Y5wdY&random=4131734437&rmt_tld=1&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://trc.taboola.com/1857086/trc/3/json?tim=1777115658019&data=%7B%22id%22%3A516%2C%22ii%22%3A%22%2Fused-cars-in-chennai%2Fs%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A1777115658007%2C%22cv%22%3A%2220260419-12-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dspinny-pureride-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22tim%22%3A1777115658017%2C%22ref%22%3Anull%2C%22item-url%22%3A%22https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F%22%2C%22tos%22%3A7%2C%22ssd%22%3A1%2C%22scd%22%3A0%2C%22it%22%3A%22JS_PIXEL%22%2C%22supv%22%3Atrue%7D%2C%22pa%22%3A%7B%22su%22%3Atrue%7D%2C%22psb%22%3Atrue%7D&pubit=i",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=683388350682657&ev=Search&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rl=&if=false&ts=1777115658203&sw=1280&sh=900&v=2.9.307&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=4126&fbp=fb.1.1777115658191.735659121121952848&ler=empty&cdl=API_unavailable&pmd[locale]=en&pmd[description]=Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.&pmd[keywords]=used%20cars%20in%20Chennai%2C%20buy%20used%20cars%20in%20Chennai%2C%20used%20cars%20Chennai%2C%20pre-owned%20cars%20in%20Chennai%2C%20buy%20second%20hand%20cars%2C%20buy%20second%20hand%20cars%20in%20Chennai%2C%202nd%20hand%20cars%20Chennai%2C%20used%20cars&pmd[contents]=%5B%7B%22name%22%3A%22%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai%22%2C%22description%22%3A%22Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.%22%2C%22aggregate_rating%22%3A%7B%22%40type%22%3A%22AggregateRating%22%2C%22ratingValue%22%3A5%2C%22reviewCount%22%3A352%7D%2C%22brand%22%3A%22Spinny%22%7D%5D&plt=2072.5&mft[microdata]=%5B%7B%22source%22%3A%22json_ld%22%2C%22data%22%3A%7B%22objects%22%3A%7B%22product%22%3A%5B%7B%22fields%22%3A%7B%22name%22%3A%5B%22%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai%22%5D%2C%22description%22%3A%5B%22Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.%22%5D%2C%22url%22%3A%5B%22https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F%22%5D%7D%2C%22objects%22%3A%7B%22brandStruct%22%3A%5B%7B%22fields%22%3A%7B%22name%22%3A%5B%22Spinny%22%5D%7D%7D%5D%2C%22aggregateRating%22%3A%5B%7B%22fields%22%3A%7B%22ratingValue%22%3A%5B%225%22%5D%2C%22reviewCount%22%3A%5B%22352%22%5D%7D%7D%5D%7D%7D%5D%7D%7D%7D%5D&mft[version]=7deaf9800d69b075ec3e9904de083941&it=1777115657929&coo=false&tm=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=FGET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=849566798463645&ev=PageView&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rl=&if=false&ts=1777115658566&sw=1280&sh=900&v=2.9.307&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=4126&fbp=fb.1.1777115658191.735659121121952848&ler=empty&cdl=API_unavailable&pmd[title]=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&pmd[locale]=en&pmd[description]=Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.&pmd[keywords]=used%20cars%20in%20Chennai%2C%20buy%20used%20cars%20in%20Chennai%2C%20used%20cars%20Chennai%2C%20pre-owned%20cars%20in%20Chennai%2C%20buy%20second%20hand%20cars%2C%20buy%20second%20hand%20cars%20in%20Chennai%2C%202nd%20hand%20cars%20Chennai%2C%20used%20cars&pmd[contents]=%5B%7B%22name%22%3A%22%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai%22%2C%22description%22%3A%22Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.%22%2C%22aggregate_rating%22%3A%7B%22%40type%22%3A%22AggregateRating%22%2C%22ratingValue%22%3A5%2C%22reviewCount%22%3A352%7D%2C%22brand%22%3A%22Spinny%22%7D%5D&plt=2072.5&mft[microdata]=%5B%7B%22source%22%3A%22json_ld%22%2C%22data%22%3A%7B%22objects%22%3A%7B%22product%22%3A%5B%7B%22fields%22%3A%7B%22name%22%3A%5B%22%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai%22%5D%2C%22description%22%3A%5B%22Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.%22%5D%2C%22url%22%3A%5B%22https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F%22%5D%7D%2C%22objects%22%3A%7B%22brandStruct%22%3A%5B%7B%22fields%22%3A%7B%22name%22%3A%5B%22Spinny%22%5D%7D%7D%5D%2C%22aggregateRating%22%3A%5B%7B%22fields%22%3A%7B%22ratingValue%22%3A%5B%225%22%5D%2C%22reviewCount%22%3A%5B%22352%22%5D%7D%7D%5D%7D%7D%5D%7D%7D%7D%5D&mft[version]=7deaf9800d69b075ec3e9904de083941&cs_est=true&it=1777115657929&coo=false&tm=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&expv2[7]=pt0&rqm=FGET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=683388350682657&ev=PageView&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rl=&if=false&ts=1777115658577&sw=1280&sh=900&v=2.9.307&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=4126&fbp=fb.1.1777115658191.735659121121952848&ler=empty&cdl=API_unavailable&pmd[title]=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&pmd[locale]=en&pmd[description]=Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.&pmd[keywords]=used%20cars%20in%20Chennai%2C%20buy%20used%20cars%20in%20Chennai%2C%20used%20cars%20Chennai%2C%20pre-owned%20cars%20in%20Chennai%2C%20buy%20second%20hand%20cars%2C%20buy%20second%20hand%20cars%20in%20Chennai%2C%202nd%20hand%20cars%20Chennai%2C%20used%20cars&pmd[contents]=%5B%7B%22name%22%3A%22%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai%22%2C%22description%22%3A%22Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.%22%2C%22aggregate_rating%22%3A%7B%22%40type%22%3A%22AggregateRating%22%2C%22ratingValue%22%3A5%2C%22reviewCount%22%3A352%7D%2C%22brand%22%3A%22Spinny%22%7D%5D&plt=2072.5&mft[microdata]=%5B%7B%22source%22%3A%22json_ld%22%2C%22data%22%3A%7B%22objects%22%3A%7B%22product%22%3A%5B%7B%22fields%22%3A%7B%22name%22%3A%5B%22%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai%22%5D%2C%22description%22%3A%5B%22Are%20you%20looking%20for%20used%20cars%20in%20Chennai%3F%20Buy%20second%20hand%20cars%20in%20Chennai%20starting%20from%20Rs.%202.32%20Lakh%2C%20including%20models%20like%20Creta%2C%20Seltos%2C%20City%2C%20Nexon%20and%20Alto%20800%20with%20warranty%20%26%20free%20RC%20transfer.%22%5D%2C%22url%22%3A%5B%22https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F%22%5D%7D%2C%22objects%22%3A%7B%22brandStruct%22%3A%5B%7B%22fields%22%3A%7B%22name%22%3A%5B%22Spinny%22%5D%7D%7D%5D%2C%22aggregateRating%22%3A%5B%7B%22fields%22%3A%7B%22ratingValue%22%3A%5B%225%22%5D%2C%22reviewCount%22%3A%5B%22352%22%5D%7D%7D%5D%7D%7D%5D%7D%7D%7D%5D&mft[version]=7deaf9800d69b075ec3e9904de083941&it=1777115657929&coo=false&tm=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=FGET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.gstatic.com/recaptcha/releases/gTpTIWhbKpxADzTzkcabhXN4/styles__ltr.css",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+    "headers": {
+      "origin": "https://www.google.com",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.google.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "font"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.spinny.com/v3/api/pulse/save-user-intent/",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "anonymous-id": "1024547138.1777115658",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://trc-events.taboola.com/1857086/log/3/unip?en=pre_d_eng_tb&tos=4621&scd=0&ssd=1&est=1777115658010&ver=36&isls=true&src=i&invt=4500&msa=3013&rv=1&tim=1777115662631&vi=1777115658007&ri=60e9eda65e54452c00b6e35d15638bea&ref=null&cv=20260419-12-RELEASE&item-url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&it=JS_PIXEL",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-WQREN8TJ7R&gtm=45je64m2v880374642z8831444436za20gzb831444436zd831444436&_p=1777115656991&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&are=1&cid=1024547138.1777115658&frm=0&pscdl=noapi&rcb=3&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=0~115616985~115938465~115938469~117266401~117512543&uid=NA&sid=1777115657&sct=1&seg=0&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&_s=4&tfd=7978",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "en-IN"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://sslwidget.criteo.com/event?a=%5B111780%5D&v=5.46.0&p0=e%3Dvpg&bundle=ySivAV8lMkJJdklTWWEzbGhUZmI0ODlNJTJCWWtHaTU4VDF5S1V1eFY5cmM0N1I5Z3FpeUYzbEo0dTQlMkJERDdoRXhGbFhTJTJCa2pHUkpKcDkxNllDNFdUZG0wVyUyQjM1N0o3Qlc0NXBUJTJGRVR5RXNEJTJGcktUeVRGYkUlMkZpOGhLa3FPRURkQ0l3UHV6ejVIUE10ZFB5RFppV3pFS2ZZMjJkc3Z3JTNEJTNE&sc=%7B%22fbp%22%3A%22fb.1.1777115658191.735659121121952848%22%7D&tld=spinny.com&dy=1&fu=https%253A%252F%252Fwww.spinny.com%252Fused-cars-in-chennai%252Fs%252F&ceid=3117adab-8bc0-4759-8e0b-881e7979c951",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "GET",
+    "url": "https://widget.as.criteo.com/event?a=%5B111780%5D&v=5.46.0&p0=e%3Dvpg&bundle=ySivAV8lMkJJdklTWWEzbGhUZmI0ODlNJTJCWWtHaTU4VDF5S1V1eFY5cmM0N1I5Z3FpeUYzbEo0dTQlMkJERDdoRXhGbFhTJTJCa2pHUkpKcDkxNllDNFdUZG0wVyUyQjM1N0o3Qlc0NXBUJTJGRVR5RXNEJTJGcktUeVRGYkUlMkZpOGhLa3FPRURkQ0l3UHV6ejVIUE10ZFB5RFppV3pFS2ZZMjJkc3Z3JTNEJTNE&sc=%7B%22fbp%22%3A%22fb.1.1777115658191.735659121121952848%22%7D&tld=spinny.com&dy=1&fu=https%253A%252F%252Fwww.spinny.com%252Fused-cars-in-chennai%252Fs%252F&ceid=3117adab-8bc0-4759-8e0b-881e7979c951",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "accept-language": "en-IN",
+      "referer": "https://www.spinny.com/"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/listing/light/v5?page=1&city=&o=popular&include_booked=false",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "anonymous-id": "1024547138.1777115658",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/listing/light/v5?page=1&city=chennai&o=popular&include_booked=false",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "anonymous-id": "1024547138.1777115658",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-WQREN8TJ7R&gtm=45je64m2v880374642z8831444436za20gzb831444436zd831444436&_p=1777115656991&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQ&are=1&cid=1024547138.1777115658&frm=0&pscdl=noapi&rcb=3&sr=1280x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=0~115616985~115938465~115938469~117266401~117512543&uid=NA&sid=1777115657&sct=1&seg=0&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand%20Cars%20in%20Chennai&_s=5&tfd=12188",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "en-IN"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://spn-sta.spinny.com/spinny-web/static-images/assets/images/components/CarListingCardV2/components/CardFooter/components/AvailabilityStatus/assets/booked.svg?q=85&w=70&dpr=1.0",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.spinny.com/v3/api/listing/v6/?city=chennai&product_type=cars&category=used&page=2&show_max_on_assured=true&custom_budget_sort=true&assured_fetched_cars=10&budget_fetched_cars=7&luxury_fetched_cars=3&ratio_status=available&size=20&total_count=283&prioritize_filter_listing=true&high_intent_required=true&active_banner=true&added_in_inventory=true&is_max_certified=0&is_pulse_exp=true&is_new_price=true",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "procurement-category": "assured,luxury",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "anonymous-id": "1024547138.1777115658",
+      "content-type": "application/json",
+      "platform": "web"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/957961090/?random=1777115667212&cv=11&fst=1777115667212&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&ga_uid=G-WQREN8TJ7R.NA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=4",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "script"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/957961090/?random=1777115667212&cv=11&fst=1777115667212&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&ga_uid=G-WQREN8TJ7R.NA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&gcp=5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&ae=g&dl=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&scrsrc=www.googletagmanager.com&rnd=590083086.1777115658&dt=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&auid=616207327.1777115658&navt=n&npa=0&ep.dynx_pagetype=searchresults_undefined&epn.dynx_totalvalue=0&ga_uid=G-WQREN8TJ7R.NA&_tu=CA&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&apve=1&apvf=f&apvc=0&tids=AW-957961090&tid=AW-957961090&tft=1777115667236&tfd=12316",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/957961090/?random=1777115667212&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&ga_uid=G-WQREN8TJ7R.NA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQAFq6B9xHnC7u5fVh2JlNM_C9r_H264zfLaZUCsY7iQYF28eRebwSbhe4sozkTMXSgtDvPwZ0yVE4NWpNFyZ8t4VWxKHrj5EOThafPg2PVzgA5k5PQDcKvyIkE0ng&random=3052883872&rmt_tld=0&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.google.co.uk/pagead/1p-user-list/957961090/?random=1777115667212&cv=11&fst=1777114800000&bg=ffffff&guid=ON&async=1&gtm=45be64m2v872513052z8831444436za20gzb831444436zd831444436xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117266401&u_w=1280&u_h=900&url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&rcb=19&frm=0&tiba=%E2%9C%85%20274%20%F0%9D%97%A8%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B1%20%F0%9D%97%96%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80%20%F0%9D%97%B6%F0%9D%97%BB%20%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B6%2C%20Buy%20Second%20Hand&ga_uid=G-WQREN8TJ7R.NA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=616207327.1777115658&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=dynx_itemid%3D%3Bdynx_pagetype%3Dsearchresults_undefined%3Bdynx_totalvalue%3D0&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQAFq6B9xHnC7u5fVh2JlNM_C9r_H264zfLaZUCsY7iQYF28eRebwSbhe4sozkTMXSgtDvPwZ0yVE4NWpNFyZ8t4VWxKHrj5EOThafPg2PVzgA5k5PQDcKvyIkE0ng&random=3052883872&rmt_tld=1&ipr=y",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://spn-sta.spinny.com/spinny-web/static-images/assets/images/components/CarListingCard/assets/no-car-image2-small.svg",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "image"
+  },
+  {
+    "method": "GET",
+    "url": "https://trc-events.taboola.com/1857086/log/3/unip?en=pre_d_eng_tb&tos=10129&scd=44&ssd=1&est=1777115658010&ver=36&isls=true&src=i&invt=5500&msa=4089&rv=1&tim=1777115668139&vi=1777115658007&ri=60e9eda65e54452c00b6e35d15638bea&ref=null&cv=20260419-12-RELEASE&item-url=https%3A%2F%2Fwww.spinny.com%2Fused-cars-in-chennai%2Fs%2F&it=JS_PIXEL",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://spn-sta.spinny.com/spinny-web/static-images/assets/images/components/Banners/assets/banner-capital.lottie",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.spinny.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "resource_type": "fetch"
+  }
+]

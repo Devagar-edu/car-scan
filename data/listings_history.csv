@@ -1,90 +1,243 @@
 title,price,km,year,fuel_type,link,source,scraped_at,model
-2022 Mercedes-Benz GLA 220d [2021-2023],195.0,21321,2022,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-18 21:25:27.818566,Mercedes-Benz
-2018 Mercedes-Benz E-Class E 220 d Avantgarde,13.0,67000,2018,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 21:25:27.818566,Mercedes-Benz
-2011 Skoda Fabia Ambition 1.2 TDI,11.5,65000,2011,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-18 21:25:27.818566,Skoda
-2019 Jeep Compass Limited (O) 1.4 Petrol AT [2017-2020],3.5,104000,2019,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 21:25:27.818566,Compass
-2014 Mercedes-Benz GL-Class 350 CDI,18.0,26000,2014,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 21:25:27.818566,Mercedes-Benz
-2013 Hyundai Santa Fe 4 WD (AT),31.0,110000,2013,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 21:25:27.818566,Hyundai
-2023 Land Rover Range Rover SV LWB 3.0 Diesel,9.5,105000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 21:25:27.818566,Land
-2018 Honda Amaze 1.2 S CVT Petrol [2018-2020],350.0,28000,2018,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 21:25:27.818566,Amaze
-2018 Jeep Compass Limited (O) 2.0 Diesel [2017-2020],49.0,47000,2018,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 21:25:27.818566,Compass
-2017 Jeep Compass Longitude (O) 2.0 Diesel [2017-2020],13.5,59000,2017,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 21:25:27.818566,Compass
-2017 BMW 7-Series 730Ld DPE Signature,6.75,52000,2017,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 21:25:27.818566,BMW
-2024 Tata Tiago XT [2023-2025],37.0,55000,2024,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-18 21:25:27.818566,Tiago
-2019 Renault Kwid CLIMBER 1.0 AMT,9.05,31779,2019,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 21:25:27.818566,Kwid
+2024 Jeep Compass Model S (O) 2.0 Diesel AT,23.73,19866,2024,Diesel,https://www.spinny.com/buy-used-cars/chennai/jeep/compass/model-s-o-20-diesel-at-vadapalani-2024/27185997/,Spinny,2026-04-25 23:29:19.853001,Compass
+2015 Hyundai Xcent S 1.2,3.73,47315,2015,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/xcent/s-12-vadapalani-2015/28101649/,Spinny,2026-04-25 23:29:19.853001,Hyundai
+2021 Skoda Kushaq Ambition 1.0L TSI MT,9.99,15882,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/skoda/kushaq/ambition-10l-tsi-mt-sholinganallur-2022/26828786/,Spinny,2026-04-25 23:29:19.852001,Skoda
+2024 Hyundai Creta 1.5 MPi Petrol IVT SX(O),17.83,27783,2024,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/15-mpi-petrol-ivt-sxo-sholinganallur-2024/28305404/,Spinny,2026-04-25 23:29:19.852001,Creta
+2022 Hyundai Creta SX (O) 1.5 Diesel Automatic,14.81,60488,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-15-diesel-automatic-pallavaram-2022/28065559/,Spinny,2026-04-25 23:29:19.852001,Creta
+2022 Volkswagen Taigun GT Plus 1.5 TSI DSG,13.14,55701,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/taigun/gt-plus-15-tsi-dsg-sholinganallur-2022/28002081/,Spinny,2026-04-25 23:29:19.852001,Taigun
+2022 Kia Seltos GTX Plus 1.5 Diesel AT,12.93,91216,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-15-diesel-at-vadapalani-2022/24374729/,Spinny,2026-04-25 23:29:19.852001,Seltos
+2021 Kia Seltos HTX 1.5,9.85,65850,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/htx-15-sholinganallur-2021/26763749/,Spinny,2026-04-25 23:29:19.852001,Seltos
+2023 Tata Nexon XZ Plus LUX,7.96,104190,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/tata/nexon/xz-plus-lux-sholinganallur-2023/27006887/,Spinny,2026-04-25 23:29:19.852001,Nexon
+2023 Maruti Suzuki Grand Vitara Zeta Smart Hybrid,12.17,48578,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/grand-vitara/zeta-smart-hybrid-2024/28619674/,Spinny,2026-04-25 23:29:19.852001,Maruti
+2013 Honda Brio EX MT,2.82,45496,2013,Petrol,https://www.spinny.com/buy-used-cars/chennai/honda/brio/ex-mt-vadapalani-2013/28297686/,Spinny,2026-04-25 23:29:19.852001,Honda
+2023 Honda Amaze VX CVT 1.2 Petrol,8.44,26877,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/honda/amaze/vx-cvt-12-petrol-vadapalani-2023/28205578/,Spinny,2026-04-25 23:29:19.852001,Amaze
+2022 Volkswagen Taigun GT 1.5 TSI MT,10.55,53115,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/taigun/gt-15-tsi-mt-vadapalani-2023/27771005/,Spinny,2026-04-25 23:29:19.852001,Taigun
+2016 Maruti Suzuki Ciaz ZXi  AT,5.05,105217,2016,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/ciaz/zxi-at-vadapalani-2016/28198774/,Spinny,2026-04-25 23:29:19.852001,Ciaz
+2021 Skoda Kushaq Style 1.5L TSI MT,12.32,38141,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/skoda/kushaq/style-15l-tsi-mt-vadapalani-2021/26886756/,Spinny,2026-04-25 23:29:19.852001,Skoda
+2014 Hyundai Eon Era,2.53,37938,2014,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/eon/era-20112012-sholinganallur-2014/28184000/,Spinny,2026-04-25 23:29:19.852001,Hyundai
+2023 Kia Carens Luxury Plus 1.5 Diesel iMT 7 STR,14.4,106186,2023,Diesel,https://www.spinny.com/buy-used-cars/chennai/kia/carens/luxury-plus-15-diesel-imt-7-str-vadapalani-2023/24416358/,Spinny,2026-04-25 23:29:19.852001,Kia
+2023 Honda City V Petrol MT,9.66,87153,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/honda/city/v-petrol-mt-sholinganallur-2023/27187165/,Spinny,2026-04-25 23:29:19.852001,City
+2016 Hyundai Elite i20 Sportz 1.2,5.05,25452,2016,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/elite-i20/sportz-12-vadapalani-2016/28535524/,Spinny,2026-04-25 23:29:19.852001,i20
+2023 Kia Seltos GTX Plus 1.5 Turbo Petrol DCT,17.31,26445,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-15-turbo-petrol-dct-sholinganallur-2023/23806382/,Spinny,2026-04-25 23:29:19.852001,Seltos
+2018 Volkswagen Vento Highline 1.6 (P),5.74,62242,2018,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/vento/highline-16-p-vadapalani-2018/28434269/,Spinny,2026-04-25 23:29:19.852001,Vento
+2022 Maruti Suzuki Wagon R VXI 1.0 CNG,5.42,26214,2022,CNG,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/wagon-r/vxi-10-cng-vadapalani-2022/28541130/,Spinny,2026-04-25 23:29:19.852001,Maruti
+2022 Hyundai Creta SX 1.5 Petrol Executive,11.97,18467,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-15-petrol-executive-vadapalani-2022/28625525/,Spinny,2026-04-25 23:29:19.852001,Creta
+2022 Mahindra XUV700 AX 5 Petrol AT 5 STR,16.64,32697,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/mahindra/xuv700/ax-5-petrol-at-5-str-sholinganallur-2022/28446717/,Spinny,2026-04-25 23:29:19.852001,XUV700
+2020 Ford EcoSport Thunder Edition Diesel,7.49,89847,2020,Diesel,https://www.spinny.com/buy-used-cars/chennai/ford/ecosport/thunder-edition-diesel-sholinganallur-2021/28229700/,Spinny,2026-04-25 23:29:19.852001,EcoSport
+2019 Maruti Suzuki Ciaz Alpha 1.5 Diesel,7.39,74252,2019,Diesel,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/ciaz/alpha-15-diesel-sholinganallur-2019/28160651/,Spinny,2026-04-25 23:29:19.852001,Ciaz
+2016 Skoda Rapid 1.6 MPI Style Plus,4.98,75396,2016,Petrol,https://www.spinny.com/buy-used-cars/chennai/skoda/rapid/16-mpi-style-plus-vadapalani-2016/27727806/,Spinny,2026-04-25 23:29:19.852001,Skoda
+2023 Kia Sonet HTK Plus 1.2,8.12,9127,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/sonet/htk-plus-12-vadapalani-2023/28297520/,Spinny,2026-04-25 23:29:19.852001,Sonet
+2020 Renault Kwid RXT,3.45,55521,2020,Petrol,https://www.spinny.com/buy-used-cars/chennai/renault/kwid/rxt-vadapalani-2020/27941178/,Spinny,2026-04-25 23:29:19.852001,Kwid
+2022 Honda City 4th Generation V Petrol,8.8,53206,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/honda/city/4th-generation-v-petrol-sholinganallur-2022/26959792/,Spinny,2026-04-25 23:29:19.852001,City
+2022 Honda City V Petrol,8.22,113807,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/honda/city/v-petrol-vadapalani-2023/26428799/,Spinny,2026-04-25 23:29:19.852001,City
+2022 Mahindra XUV700 AX 7 Petrol AT 7 STR,16.88,97690,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/mahindra/xuv700/ax-7-petrol-at-7-str-vadapalani-2022/26093935/,Spinny,2026-04-25 23:29:17.566240,XUV700
+2019 Kia Seltos HTX IVT 1.5,9.15,95150,2019,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/htx-ivt-15-vadapalani-2019/27622422/,Spinny,2026-04-25 23:29:17.566240,Seltos
+2022 Volkswagen Taigun Topline 1.0 TSI AT,10.86,69883,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/taigun/topline-10-tsi-at-vadapalani-2022/27731609/,Spinny,2026-04-25 23:29:17.566240,Taigun
+2021 Hyundai Creta SX (O) 1.5 Diesel,11.57,106527,2021,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-15-diesel-vadapalani-2021/26782062/,Spinny,2026-04-25 23:29:17.566240,Creta
+2013 Maruti Suzuki Estilo VXi BS-IV,2.75,31339,2013,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/estilo/vxi-bsiv-sholinganallur-2013/28391443/,Spinny,2026-04-25 23:29:17.566240,Maruti
+2020 Mahindra XUV 300 W8 (O) 1.5 Diesel AMT,8.47,47832,2020,Diesel,https://www.spinny.com/buy-used-cars/chennai/mahindra/xuv-300/w8-o-15-diesel-amt-vadapalani-2020/28261906/,Spinny,2026-04-25 23:29:17.566240,Xuv
+2023 Volkswagen Virtus Highline 1.0 TSI AT,12.44,29447,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/virtus/highline-10-tsi-at-vadapalani-2023/27245711/,Spinny,2026-04-25 23:29:17.566240,Virtus
+2012 Maruti Suzuki Estilo VXi BS-IV,2.49,48815,2012,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/estilo/vxi-bsiv-vadapalani-2012/28112549/,Spinny,2026-04-25 23:29:17.566240,Maruti
+2020 Kia Seltos GTX Plus AT 1.5 Diesel,11.96,64042,2020,Diesel,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-at-15-diesel-vadapalani-2020/26233872/,Spinny,2026-04-25 23:29:17.566240,Seltos
+2019 Tata Nexon XZ Plus Diesel,6.84,52579,2019,Diesel,https://www.spinny.com/buy-used-cars/chennai/tata/nexon/xz-plus-diesel-sholinganallur-2019/28143824/,Spinny,2026-04-25 23:29:17.566240,Nexon
+2022 Mahindra Scorpio N Z8 L Diesel AT 4WD 7 STR,20.8,55186,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/mahindra/scorpio-n/z8-l-diesel-at-4wd-7-str-vadapalani-2022/28393204/,Spinny,2026-04-25 23:29:17.566240,Scorpio
+2022 Skoda Slavia Ambition 1.0L TSI MT,10.48,33741,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/skoda/slavia/ambition-10l-tsi-mt-vadapalani-2022/28277300/,Spinny,2026-04-25 23:29:17.566240,Skoda
+2023 Kia Seltos X Line 1.5 Turbo Petrol DCT,17.58,13828,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/x-line-15-turbo-petrol-dct-sholinganallur-2024/27534450/,Spinny,2026-04-25 23:29:17.566240,Seltos
+2023 Honda City VX Petrol MT,11.81,23915,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/honda/city/vx-petrol-mt-vadapalani-2023/27588907/,Spinny,2026-04-25 23:29:17.566240,City
+2024 Skoda Slavia Ambition 1.0L TSI AT,13.26,23950,2024,Petrol,https://www.spinny.com/buy-used-cars/chennai/skoda/slavia/ambition-10l-tsi-at-sholinganallur-2024/27851407/,Spinny,2026-04-25 23:29:17.566240,Skoda
+2022 Volkswagen Taigun Topline 1.0 TSI MT,11.06,73135,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/taigun/topline-10-tsi-mt-vadapalani-2022/27207709/,Spinny,2026-04-25 23:29:17.566240,Taigun
+2020 Kia Seltos GTX Plus 1.4,10.47,69549,2020,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-14-sholinganallur-2020/27220777/,Spinny,2026-04-25 23:29:17.566240,Seltos
+2022 Hyundai Creta SX (O) 1.5 Diesel Automatic,14.86,56236,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-15-diesel-automatic-vadapalani-2022/27966085/,Spinny,2026-04-25 23:29:17.564717,Creta
+2017 Honda WR-V VX MT Diesel,5.89,94320,2017,Diesel,https://www.spinny.com/buy-used-cars/chennai/honda/wr-v/vx-mt-diesel-sholinganallur-2017/28026616/,Spinny,2026-04-25 23:29:17.564717,WR-V
+2021 Hyundai Verna SX (O) 1.0 Turbo DCT,10.37,83989,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/verna/sx-o-10-turbo-dct-vadapalani-2021/28509353/,Spinny,2026-04-25 23:29:15.116655,Verna
+2023 Mahindra XUV700 AX 5 Diesel AT 5 STR,17.49,78266,2023,Diesel,https://www.spinny.com/buy-used-cars/chennai/mahindra/xuv700/ax-5-diesel-at-5-str-vadapalani-2024/27824094/,Spinny,2026-04-25 23:29:15.116655,XUV700
+2023 Hyundai Venue SX 1.5 CRDi,10.37,42660,2023,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/venue/sx-15-crdi-vadapalani-2023/28147747/,Spinny,2026-04-25 23:29:15.116655,Venue
+2024 Hyundai i20 N Line N8 1.0 Turbo DCT Dual Tone,11.14,17481,2024,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/i20-n-line/n8-10-turbo-dct-dual-tone-vadapalani-2024/28440939/,Spinny,2026-04-25 23:29:15.116655,i20
+2021 Hyundai Creta SX (O) 1.5 Diesel Automatic,12.67,91479,2021,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-15-diesel-automatic-sholinganallur-2021/27627360/,Spinny,2026-04-25 23:29:15.116655,Creta
+2020 Kia Seltos GTX Plus DCT 1.4,11.44,72167,2020,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-at-14-vadapalani-2020/27863442/,Spinny,2026-04-25 23:29:15.116655,Seltos
+2022 Kia Seltos GTX Plus 1.5 Diesel AT,12.92,105163,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-15-diesel-at-sholinganallur-2022/27071357/,Spinny,2026-04-25 23:29:15.116655,Seltos
+2022 Hyundai Creta SX (O) 1.5 Diesel Automatic,13.47,106558,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-15-diesel-automatic-sholinganallur-2022/26425850/,Spinny,2026-04-25 23:29:15.116655,Creta
+2023 Renault Kwid RXT 1.0,4.65,9570,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/renault/kwid/rxt-10-sholinganallur-2023/28444332/,Spinny,2026-04-25 23:29:15.116655,Kwid
+2022 Mahindra XUV 300 W8 (O) 1.5 Diesel,9.59,84487,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/mahindra/xuv-300/w8-o-15-diesel-vadapalani-2022/27656283/,Spinny,2026-04-25 23:29:15.116655,Xuv
+2022 Kia Seltos GTX Plus 1.4,13.54,44287,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-14-sholinganallur-2022/27707260/,Spinny,2026-04-25 23:29:15.116655,Seltos
+2017 Skoda Octavia 1.8 TSI L&K,9.98,136042,2017,Petrol,https://www.spinny.com/buy-used-cars/chennai/skoda/octavia/18-tsi-lk-sholinganallur-2017/28259995/,Spinny,2026-04-25 23:29:15.116655,Skoda
+2021 Kia Seltos GTX Plus AT 1.5 Diesel,12.53,87974,2021,Diesel,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-at-15-diesel-sholinganallur-2021/27425457/,Spinny,2026-04-25 23:29:15.116655,Seltos
+2021 Volkswagen Taigun GT Plus 1.5 TSI DSG,12.36,56627,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/taigun/gt-plus-15-tsi-dsg-sholinganallur-2021/28270713/,Spinny,2026-04-25 23:29:15.116655,Taigun
+2022 Hyundai Creta SX (O) 1.5 Diesel,14.76,45655,2022,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-15-diesel-vadapalani-2022/28049104/,Spinny,2026-04-25 23:29:15.116655,Creta
+2023 Kia Seltos GTX Plus 1.5 Turbo Petrol DCT,16.97,26001,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-15-turbo-petrol-dct-vadapalani-2023/27728940/,Spinny,2026-04-25 23:29:15.116655,Seltos
+2022 Hyundai Aura S 1.2 CNG,6.06,119904,2022,CNG,https://www.spinny.com/buy-used-cars/chennai/hyundai/aura/s-12-cng-vadapalani-2022/28208044/,Spinny,2026-04-25 23:29:15.116655,Hyundai
+2020 Tata Nexon XZ Plus Diesel (S),7.47,97159,2020,Diesel,https://www.spinny.com/buy-used-cars/chennai/tata/nexon/xz-plus-diesel-s-vadapalani-2020/28278559/,Spinny,2026-04-25 23:29:15.116655,Nexon
+2022 Mercedes-Benz C-Class C 200,39.89,49961,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/mercedes-benz/c-class/c-200-vadapalani-2022/27606402/,Spinny,2026-04-25 23:29:15.116655,Mercedes-Benz
+2023 Maruti Suzuki Grand Vitara Zeta CNG,13.19,27669,2023,CNG,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/grand-vitara/zeta-cng-vadapalani-2023/26854966/,Spinny,2026-04-25 23:29:15.116655,Maruti
+2023 BMW X1 sDrive18i M Sport,38.0,55669,2023,Petrol,https://www.carwale.com/used/chennai/bmw-x1/ls8swlk5/,CarWale,2026-04-25 23:29:11.148527,BMW
+2025 BMW 3 Series Gran Limousine 320Ld M Sport,63.0,16136,2025,Diesel,https://www.carwale.com/used/chennai/bmw-3-series-gran-limousine/7gcykznq/,CarWale,2026-04-25 23:29:10.991805,BMW
+2024 BMW iX xDrive 50,99.0,19802,2024,Electric,https://www.carwale.com/used/chennai/bmw-ix/u5v4syuz/,CarWale,2026-04-25 23:29:10.828867,BMW
+2019 Volkswagen Tiguan Highline TDI,21.5,59000,2019,Diesel,https://www.carwale.com/used/chennai/volkswagen-tiguan/8xa0hp66/,CarWale,2026-04-25 23:29:10.677824,Volkswagen
+2025 MG Cyberster GT 77.0 kWh Dual Tone,70.0,600,2025,Electric,https://www.carwale.com/used/chennai/mg-cyberster/o6klil78/,CarWale,2026-04-25 23:29:10.522777,MG
+2020 Land Rover Range Rover Velar 2.0 R-Dynamic S Petrol 250 [2017-2020],50.0,33000,2020,Petrol,https://www.carwale.com/used/chennai/land-rover-range-rover-velar/nh4j1gdh/,CarWale,2026-04-25 23:29:10.377912,Land
+2023 Kia Seltos HTK Plus 1.5 Diesel iMT [2023-2024],12.5,30000,2023,Diesel,https://www.carwale.com/used/chennai/kia-seltos/j8a1oezg/,CarWale,2026-04-25 23:29:10.213625,Seltos
+2025 BMW M2 Competition,110.0,8000,2025,Petrol,https://www.carwale.com/used/chennai/bmw-m2/4glqb1jp/,CarWale,2026-04-25 23:29:10.059722,BMW
+2024 BMW 3 Series Gran Limousine 320Ld M Sport Pro Edition,60.0,19000,2024,Diesel,https://www.carwale.com/used/chennai/bmw-3-series-gran-limousine/7vy1laeg/,CarWale,2026-04-25 23:29:09.916943,BMW
+2022 BMW X7 xDrive40i M Sport (Petrol),95.0,19000,2022,Petrol,https://www.carwale.com/used/chennai/bmw-x7/i393865b/,CarWale,2026-04-25 23:29:09.762049,BMW
+2025 BMW 3-Series 320Ld M Sport,60.0,19000,2025,Diesel,https://www.carwale.com/used/chennai/bmw-3-series/56ig363s/,CarWale,2026-04-25 23:29:09.613780,BMW
+2024 Land Rover Range Rover Velar HSE Dynamic 2.0 Diesel,85.0,9000,2024,Diesel,https://www.carwale.com/used/chennai/land-rover-range-rover-velar/n9c5y9ky/,CarWale,2026-04-25 23:29:09.463643,Land
+2021 Mercedes-Benz GLC Coupe 300d 4MATIC [2020-2023],40.0,50000,2021,Diesel,https://www.carwale.com/used/chennai/mercedes-benz-glc-coupe/7carpsdq/,CarWale,2026-04-25 23:29:09.313038,Mercedes-Benz
+2020 Audi Q2 Technology 40 TFSI quattro,25.0,25000,2020,Petrol,https://www.carwale.com/used/chennai/audi-q2/y7p6q3c2/,CarWale,2026-04-25 23:29:09.166408,Audi
+2019 Volvo XC90 D5 AWD,64.0,53000,2019,Diesel,https://www.carwale.com/used/chennai/volvo-xc90/3hzdcq6v/,CarWale,2026-04-25 23:29:08.996316,Volvo
+2018 Mercedes-Benz S-Class S 350D [2018-2020],55.0,58000,2018,Diesel,https://www.carwale.com/used/chennai/mercedes-benz-s-class/y1xthfb5/,CarWale,2026-04-25 23:29:08.838321,Mercedes-Benz
+2022 Porsche Macan Base [2021-2023],69.0,26000,2022,Petrol,https://www.carwale.com/used/chennai/porsche-macan/0txqcsjq/,CarWale,2026-04-25 23:29:08.675316,Porsche
+2018 Jaguar XF Portfolio Diesel,27.0,48000,2018,Diesel,https://www.carwale.com/used/chennai/jaguar-xf/n7u8kgk9/,CarWale,2026-04-25 23:29:08.532638,Jaguar
+2019 Jaguar XF Portfolio Diesel,25.0,50000,2019,Diesel,https://www.carwale.com/used/chennai/jaguar-xf/ohyiptiv/,CarWale,2026-04-25 23:29:08.373999,Jaguar
+2024 BMW X3 xDrive20d M Sport,60.0,22000,2024,Diesel,https://www.carwale.com/used/chennai/bmw-x3/mld1qmnt/,CarWale,2026-04-25 23:29:08.218720,BMW
+2018 Land Rover Range Rover Sport SDV8 HSE,95.0,67000,2018,Diesel,https://www.carwale.com/used/chennai/land-rover-range-rover-sport/zksg7dgn/,CarWale,2026-04-25 23:29:08.074838,Land
+2021 Audi RS5 Sportback [2021-2024],85.0,16000,2021,Petrol,https://www.carwale.com/used/chennai/audi-rs5/6etl5mos/,CarWale,2026-04-25 23:29:07.928744,Audi
+2023 Mercedes-Benz C-Class C 220d,49.0,11000,2023,Diesel,https://www.carwale.com/used/chennai/mercedes-benz-c-class/5d8wd5vz/,CarWale,2026-04-25 23:29:07.794702,Mercedes-Benz
+2018 Lamborghini Huracan LP 610-4,315.0,15000,2018,Petrol,https://www.carwale.com/used/chennai/lamborghini-huracan/5ikfbqcj/,CarWale,2026-04-25 23:29:07.646309,Lamborghini
+2019 Tata Tiago Revotron XZ Plus Dual Tone,4.66,69907,2019,Petrol,https://www.carwale.com/used/chennai/tata-tiago/51kjg3fg/,CarWale,2026-04-25 23:29:07.496702,Tiago
+2016 Maruti Suzuki Baleno Zeta 1.2,4.89,50422,2016,Petrol,https://www.carwale.com/used/chennai/maruti-suzuki-baleno/8l45krni/,CarWale,2026-04-25 23:29:07.344747,Baleno
+2018 Maruti Suzuki Swift VXi,4.69,53948,2018,Petrol,https://www.carwale.com/used/chennai/maruti-suzuki-swift/ihvn3uyg/,CarWale,2026-04-25 23:29:07.179759,Swift
+2022 Maruti Suzuki DZire VXi AGS [2020-2023],6.64,24913,2022,Petrol,https://www.carwale.com/used/chennai/maruti-suzuki-dzire/bbl9adya/,CarWale,2026-04-25 23:29:07.043934,Dzire
+2021 Lexus LX V8 AT,220.0,31000,2021,Petrol,https://www.carwale.com/used/chennai/lexus-lx/arl57h4s/,CarWale,2026-04-25 23:29:06.897835,Lexus
+2022 Renault Kwid RXT 1.0 AMT,3.77,56209,2022,Petrol,https://www.carwale.com/used/chennai/renault-kwid/tnqstncr/,CarWale,2026-04-25 23:29:06.757814,Kwid
+2024 Tata Tiago XT [2023-2025],4.9,15398,2024,Petrol,https://www.carwale.com/used/chennai/tata-tiago/lpa6qijy/,CarWale,2026-04-25 23:29:06.611881,Tiago
+2019 Renault Kwid CLIMBER 1.0 AMT,3.35,43137,2019,Petrol,https://www.carwale.com/used/chennai/renault-kwid/se54sokn/,CarWale,2026-04-25 23:29:06.459254,Kwid
+2022 Tata Punch Adventure MT [2021-2023],5.6,22486,2022,Petrol,https://www.carwale.com/used/chennai/tata-punch/22w2cdh8/,CarWale,2026-04-25 23:29:06.314090,Punch
+2020 Tata Tiago Revotron XZA Plus,4.68,38392,2020,Petrol,https://www.carwale.com/used/chennai/tata-tiago/4nisjh1i/,CarWale,2026-04-25 23:29:06.152375,Tiago
+2022 Tata Punch Creative Dual Tone [2022-2023],6.08,51846,2022,Petrol,https://www.carwale.com/used/chennai/tata-punch/587h2z4w/,CarWale,2026-04-25 23:29:06.013839,Punch
+2020 Tata Nexon XZ,6.22,48542,2020,Petrol,https://www.carwale.com/used/chennai/tata-nexon/chw3r6h4/,CarWale,2026-04-25 23:29:05.860993,Nexon
+2017 BMW 7-Series 730Ld DPE Signature,49.0,47000,2017,Diesel,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-25 23:29:05.702830,BMW
+2018 Honda Amaze 1.2 S CVT Petrol [2018-2020],6.75,52000,2018,Petrol,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-25 23:29:05.552332,Amaze
+2023 Land Rover Range Rover SV LWB 3.0 Diesel,350.0,28000,2023,Diesel,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-25 23:29:05.411424,Land
+2013 Hyundai Santa Fe 4 WD (AT),9.5,105000,2013,Diesel,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-25 23:29:05.261554,Hyundai
+2014 Mercedes-Benz GL-Class 350 CDI,31.0,110000,2014,Diesel,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-25 23:29:05.101597,Mercedes-Benz
+2011 Skoda Fabia Ambition 1.2 TDI,3.5,104000,2011,Diesel,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-25 23:29:04.911686,Skoda
+2018 Hyundai Creta SX Plus 1.6 AT Petrol,11.5,65000,2018,Petrol,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-25 23:29:04.763369,Creta
+2017 Maruti Suzuki Swift VXi ABS,4.53,78759,2017,Petrol,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-25 23:29:04.610455,Swift
+2024 Toyota Innova Hycross ZX Hybrid (Electric + Petrol) Automatic (e-CVT) 7 STR,30.0,52723,2024,Electric,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-25 23:29:04.361582,Innova
+2018 Hyundai Creta SX 1.6 AT CRDi,9.5,119988,2018,Diesel,https://www.carwale.com/used/chennai/hyundai-creta/k0gawv4m/,CarWale,2026-04-25 23:29:03.247885,Creta
+2021 Mahindra Thar LX Hard Top Petrol AT 4WD,11.5,38456,2021,Petrol,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-25 23:29:03.087229,Thar
+2023 BMW XM Plug-in Hybrid,195.0,21321,2023,Hybrid,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-25 23:29:02.952217,BMW
+2021 Kia Seltos GTX Plus 1.5 Diesel AT,13.15,62575,2021,Diesel,https://www.spinny.com/buy-used-cars/chennai/kia/seltos/gtx-plus-15-diesel-at-vadapalani-2021/27404392/,Spinny,2026-04-25 16:53:35.209027,Seltos
+2022 Renault Kiger RXZ Turbo CVT,6.44,92001,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/renault/kiger/rxz-turbo-cvt-sholinganallur-2022/27621926/,Spinny,2026-04-25 16:53:35.209027,Kiger
+2021 Tata Tiago XZ Plus,4.71,93596,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/tata/tiago/xz-plus-vadapalani-2021/28346221/,Spinny,2026-04-25 16:53:35.209027,Tiago
+2021 Maruti Suzuki Celerio ZXi Plus,4.21,50406,2021,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/celerio/zxi-plus-vadapalani-2021/28574760/,Spinny,2026-04-25 16:53:35.209027,Celerio
+2020 Hyundai Creta SX (O) 1.4 Turbo 7 DCT,12.47,31656,2020,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-o-14-turbo-7-dct-vadapalani-2020/28334795/,Spinny,2026-04-25 16:53:35.209027,Creta
+2020 Tata Altroz XZ Diesel,5.52,112640,2020,Diesel,https://www.spinny.com/buy-used-cars/chennai/tata/altroz/xz-diesel-vadapalani-2021/28502164/,Spinny,2026-04-25 16:53:33.041617,Altroz
+2024 Hyundai Creta 1.5 CRDi Diesel AT DSL SX(O) Knight Edition,19.64,17606,2024,Diesel,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/15-crdi-diesel-at-dsl-sxo-knight-edition-vadapalani-2024/27577794/,Spinny,2026-04-25 16:53:33.041617,Creta
+2023 Renault Kwid RXT 1.0 AMT,5.21,11130,2023,Petrol,https://www.spinny.com/buy-used-cars/chennai/renault/kwid/rxt-10-amt-vadapalani-2023/28439054/,Spinny,2026-04-25 16:53:30.819632,Kwid
+2016 Audi A6 35 TFSI Matrix,16.62,27223,2016,Petrol,https://www.spinny.com/buy-used-cars/chennai/audi/a6/35-tfsi-matrix-vadapalani-2017/28250586/,Spinny,2026-04-25 16:53:30.819632,Audi
+2020 Maruti Suzuki Celerio ZXi,4.65,40569,2020,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/celerio/zxi-vadapalani-2021/28471764/,Spinny,2026-04-25 16:53:30.819632,Celerio
+2014 Maruti Suzuki Wagon R VXI,3.22,87123,2014,Petrol,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/wagon-r/vxi-vadapalani-2014/27770028/,Spinny,2026-04-25 16:53:30.819632,Maruti
+2015 Maruti Suzuki Baleno Alpha 1.3,4.94,148751,2015,Diesel,https://www.spinny.com/buy-used-cars/chennai/maruti-suzuki/baleno/alpha-13-vadapalani-2016/28362743/,Spinny,2026-04-25 16:53:30.819632,Baleno
+2022 Hyundai Creta SX 1.5 Petrol Executive,11.82,14125,2022,Petrol,https://www.spinny.com/buy-used-cars/chennai/hyundai/creta/sx-15-petrol-executive-vadapalani-2022/27270325/,Spinny,2026-04-25 16:53:30.818631,Creta
+2017 Volkswagen Vento Highline 1.2 (P) AT,6.06,82102,2017,Petrol,https://www.spinny.com/buy-used-cars/chennai/volkswagen/vento/highline-12-p-at-vadapalani-2017/27885675/,Spinny,2026-04-25 16:53:30.818631,Vento
+2019 Renault Kwid CLIMBER 1.0 AMT,6.22,48542,2019,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-25 16:53:26.693691,Kwid
+2022 BMW X6 xDrive40i M Sport,195.0,21321,2022,Unknown,https://www.carwale.com/used/chennai/tata-nexon/chw3r6h4/,CarWale,2026-04-25 16:53:26.693691,BMW
+2018 Jaguar XF Portfolio Diesel,4.66,69907,2018,Unknown,https://www.carwale.com/used/chennai/tata-punch/587h2z4w/,CarWale,2026-04-25 16:53:26.693691,Jaguar
+2019 Tata Tiago Revotron XZ Plus Dual Tone,6.12,24721,2019,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-25 16:53:26.693691,Tiago
+2017 Maruti Suzuki Baleno Alpha 1.2,2.36,55158,2017,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-25 16:53:26.693691,Baleno
+2013 Maruti Suzuki Alto 800 Lxi (Airbag) [2012-2015],220.0,31000,2013,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-25 16:53:26.693691,Alto
+2021 Lexus LX V8 AT,3.77,56209,2021,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-25 16:53:26.693691,Lexus
+2024 Tata Tiago XT [2023-2025],4.68,38392,2024,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-25 16:53:26.693691,Tiago
+2020 Tata Tiago Revotron XZA Plus,5.6,22486,2020,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-25 16:53:26.693691,Tiago
+2022 Tata Punch Adventure MT [2021-2023],3.35,43137,2022,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-25 16:53:26.693691,Punch
+2022 Tata Tiago XZ Plus CNG [2022-2023],6.05,32156,2022,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-25 16:53:26.693691,Tiago
+2022 Renault Kwid RXT 1.0 AMT,4.9,15398,2022,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-25 16:53:26.693691,Kwid
+2020 Tata Nexon XZ,6.08,51846,2020,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-25 16:53:26.693691,Nexon
+2018 Hyundai Creta SX Plus 1.6 AT Petrol,30.0,52723,2018,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-25 16:53:26.693691,Creta
+2011 Skoda Fabia Ambition 1.2 TDI,11.5,65000,2011,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/k0gawv4m/,CarWale,2026-04-25 16:53:26.693691,Skoda
+2014 Mercedes-Benz GL-Class 350 CDI,3.5,104000,2014,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/k0gawv4m/,CarWale,2026-04-25 16:53:26.693691,Mercedes-Benz
+2023 Land Rover Range Rover SV LWB 3.0 Diesel,9.5,105000,2023,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-25 16:53:26.693691,Land
+2018 Honda Amaze 1.2 S CVT Petrol [2018-2020],350.0,28000,2018,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-25 16:53:26.693691,Amaze
+2017 BMW 7-Series 730Ld DPE Signature,6.75,52000,2017,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-25 16:53:26.693691,BMW
+2017 Maruti Suzuki Swift VXi ABS,49.0,47000,2017,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-25 16:53:26.693691,Swift
+2013 Hyundai Santa Fe 4 WD (AT),31.0,110000,2013,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-25 16:53:26.693691,Hyundai
+2022 Tata Punch Creative Dual Tone [2022-2023],4.53,78759,2022,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-25 16:53:26.693691,Punch
+2018 Hyundai Creta SX Plus 1.6 AT Petrol,4.53,78759,2018,Petrol,https://www.carwale.com/used/chennai/hyundai-creta/k0gawv4m/,CarWale,2026-04-25 16:53:07.512054,Creta
+2022 Tata Punch Creative Dual Tone [2022-2023],6.22,48542,2022,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-25 16:53:07.512054,Punch
+2017 Maruti Suzuki Swift VXi ABS,30.0,52723,2017,Petrol,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-25 16:53:07.512054,Swift
+2020 Tata Tiago Revotron XZA Plus,6.08,51846,2020,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-25 16:53:07.512054,Tiago
+2019 Renault Kwid CLIMBER 1.0 AMT,49.0,47000,2019,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-25 16:53:07.512054,Kwid
+2020 Tata Nexon XZ,5.6,22486,2020,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-25 16:53:07.512054,Nexon
+2017 Maruti Suzuki Baleno Alpha 1.2,12.24,21563,2017,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-25 16:53:07.512054,Baleno
+2019 Ford Ecosport Titanium 1.5L Ti-VCT,2.36,55158,2019,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-25 16:53:07.512054,EcoSport
 2018 Mini Countryman Cooper D,4.35,43954,2018,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-18 21:25:27.818566,Mini
-2020 Tata Tiago Revotron XZA Plus,4.9,15398,2020,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-18 21:25:27.818566,Tiago
-2022 Tata Punch Adventure MT [2021-2023],3.35,43137,2022,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 21:25:27.818566,Punch
-2024 Renault Kwid RXT 1.0,5.6,22486,2024,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 21:25:27.818566,Kwid
-2023 Tata Nexon XZ Plus (S),6.22,48542,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 21:25:27.818566,Nexon
-2020 Tata Nexon XZ,6.08,51846,2020,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-18 21:25:27.818566,Nexon
+2018 Mercedes-Benz E-Class E 220 d Avantgarde,13.0,67000,2018,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 21:25:27.818566,Mercedes-Benz
+2014 Mercedes-Benz GL-Class 350 CDI,18.0,26000,2014,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 21:25:27.818566,Mercedes-Benz
+2019 Jeep Compass Limited (O) 1.4 Petrol AT [2017-2020],3.5,104000,2019,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 21:25:27.818566,Compass
+2019 Renault Kwid CLIMBER 1.0 AMT,9.05,31779,2019,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 21:25:27.818566,Kwid
 2022 Tata Punch Creative Dual Tone [2022-2023],4.68,38392,2022,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-18 21:25:27.818566,Punch
-2018 Hyundai Creta SX Plus 1.6 AT Petrol,4.53,78759,2018,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-18 21:25:27.817566,Creta
-2017 Maruti Suzuki Swift VXi ABS,11.5,38456,2017,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 21:25:27.817566,Swift
-2021 Mahindra Thar LX Hard Top Petrol AT 4WD,30.0,52723,2021,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 21:25:27.817566,Thar
+2022 Mercedes-Benz GLA 220d [2021-2023],195.0,21321,2022,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-18 21:25:27.818566,Mercedes-Benz
+2023 Tata Nexon XZ Plus (S),6.22,48542,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 21:25:27.818566,Nexon
+2024 Renault Kwid RXT 1.0,5.6,22486,2024,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 21:25:27.818566,Kwid
+2024 Tata Tiago XT [2023-2025],37.0,55000,2024,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-18 21:25:27.818566,Tiago
+2017 Jeep Compass Longitude (O) 2.0 Diesel [2017-2020],13.5,59000,2017,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 21:25:27.818566,Compass
+2018 Jeep Compass Limited (O) 2.0 Diesel [2017-2020],49.0,47000,2018,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 21:25:27.818566,Compass
+2020 Tata Tiago Revotron XZA Plus,4.9,15398,2020,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-18 21:25:27.818566,Tiago
 2023 BMW iX xDrive 40,64.0,44322,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 21:25:27.817566,BMW
-2023 BMW XM Plug-in Hybrid,195.0,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 21:25:27.817566,BMW
-2022 Audi Q3 40 TFSI Premium Plus [2022-2024],195.0,21321,2022,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-18 21:25:18.509047,Audi
+2021 Mahindra Thar LX Hard Top Petrol AT 4WD,30.0,52723,2021,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 21:25:27.817566,Thar
+2017 Maruti Suzuki Swift VXi ABS,11.5,38456,2017,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 21:25:27.817566,Swift
 2017 Mini Clubman Cooper S,4.35,43954,2017,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-18 21:25:18.509047,Mini
-2018 Used Mercedes-Benz E-Class in Chennai,5.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 20:37:57.706673,Used
-Mercedes-Benz,8.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 20:37:57.706673,Mercedes-Benz
-2023 Used BMW XM in Chennai,3.0,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 20:37:57.706673,Used
-2017 Used Jeep Compass in Chennai,3.0,55000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-e-class/wsz9ia1l/,CarWale,2026-04-18 20:37:57.706673,Compass
+2022 Audi Q3 40 TFSI Premium Plus [2022-2024],195.0,21321,2022,Unknown,https://www.carwale.com/used/chennai/bmw-7-series/0jouneop/,CarWale,2026-04-18 21:25:18.509047,Audi
 2023 Used BMW iX in Chennai,3.0,44322,2023,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 20:37:57.706673,Used
-2021 Used Mahindra Thar in Chennai,5.0,38456,2023,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 20:37:57.706673,Thar
-2024 Used Toyota Innova Hycross in Chennai,8.0,52723,2023,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-18 20:37:57.706673,Innova
-2017 Used Maruti Suzuki Swift in Chennai,12.0,78759,2023,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 20:37:57.706673,Swift
+2018 Used Mercedes-Benz E-Class in Chennai,5.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 20:37:57.706673,Used
+2017 Used Jeep Compass in Chennai,3.0,55000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-e-class/wsz9ia1l/,CarWale,2026-04-18 20:37:57.706673,Compass
 Maruti Suzuki,20.0,59000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/jszfs0a2/,CarWale,2026-04-18 20:37:57.706673,Suzuki
+2017 Used Maruti Suzuki Swift in Chennai,12.0,78759,2023,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 20:37:57.706673,Swift
+2021 Used Mahindra Thar in Chennai,5.0,38456,2023,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 20:37:57.706673,Thar
+Mercedes-Benz,8.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 20:37:57.706673,Mercedes-Benz
+2024 Used Toyota Innova Hycross in Chennai,8.0,52723,2023,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-18 20:37:57.706673,Innova
+2023 Used BMW XM in Chennai,3.0,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 20:37:57.706673,Used
 2018 Used Jeep Compass in Chennai,3.0,67000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0b9rpy5b/,CarWale,2026-04-18 20:37:57.706673,Compass
 2014 Used Mercedes-Benz GL-Class in Chennai,3.0,110000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-18 20:37:50.496072,Used
-2013 Used Hyundai Santa Fe in Chennai,8.0,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 20:37:50.496072,Used
 Mercedes-Benz,5.0,105000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-18 20:37:50.496072,Mercedes-Benz
 2019 Used Jeep Compass in Chennai,3.0,26000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 20:37:50.496072,Compass
 2018 Used Hyundai Creta in Chennai,12.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 20:37:50.496072,Creta
 2011 Used Skoda Fabia in Chennai,20.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 20:37:50.496072,Used
-2017 Used Maruti Suzuki Swift in Chennai,0.45,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 20:37:42.379233,Swift
+2013 Used Hyundai Santa Fe in Chennai,8.0,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 20:37:50.496072,Used
 Maruti Suzuki,7.99,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 20:37:42.379233,Suzuki
-Mercedes-Benz,20.0,78759,2023,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 20:37:42.379233,Mercedes-Benz
+2017 Used Maruti Suzuki Swift in Chennai,0.45,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 20:37:42.379233,Swift
 2018 Used Mercedes-Benz E-Class in Chennai,12.0,55000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-e-class/wsz9ia1l/,CarWale,2026-04-18 20:37:42.379233,Used
+Mercedes-Benz,20.0,78759,2023,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 20:37:42.379233,Mercedes-Benz
 2017 Used Jeep Compass in Chennai,8.0,67000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0b9rpy5b/,CarWale,2026-04-18 20:37:42.378204,Compass
-2018 Used Jeep Compass in Chennai,5.0,59000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/jszfs0a2/,CarWale,2026-04-18 20:37:42.378204,Compass
-2021 Used Mahindra Thar in Chennai,3.0,38456,2023,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 20:37:42.378204,Thar
-2023 Used BMW XM in Chennai,0.45,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 20:37:42.378204,Used
-2023 Used BMW iX in Chennai,7.99,44322,2023,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 20:37:42.378204,Used
 2024 Used Toyota Innova Hycross in Chennai,3.0,52723,2023,Unknown,https://www.carwale.com/used/chennai/toyota-innova-hycross/k68frwrv/,CarWale,2026-04-18 20:37:42.378204,Innova
+2021 Used Mahindra Thar in Chennai,3.0,38456,2023,Unknown,https://www.carwale.com/used/chennai/mahindra-thar/gk3frdc6/,CarWale,2026-04-18 20:37:42.378204,Thar
+2023 Used BMW iX in Chennai,7.99,44322,2023,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 20:37:42.378204,Used
+2023 Used BMW XM in Chennai,0.45,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 20:37:42.378204,Used
+2018 Used Jeep Compass in Chennai,5.0,59000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/jszfs0a2/,CarWale,2026-04-18 20:37:42.378204,Compass
+2023 Used Land Rover Range Rover in Chennai,8.0,52000,2023,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 04:04:46.511695,Used
+2018 Used Hyundai Creta in Chennai,8.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 04:04:46.511695,Creta
 Mercedes-Benz,3.0,105000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-18 04:04:46.511695,Mercedes-Benz
 2011 Used Skoda Fabia in Chennai,12.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 04:04:46.511695,Used
-2023 Used BMW 3-Series in Chennai,3.0,19720,2023,Unknown,https://www.carwale.com/used/chennai/bmw-3-series/k0bjak5t/,CarWale,2026-04-18 04:04:46.511695,Used
 2023 Used BMW iX in Chennai,5.0,44322,2019,Unknown,https://www.carwale.com/used/chennai/bmw-ix/0324h7uw/,CarWale,2026-04-18 04:04:46.511695,Used
-2023 Used Land Rover Range Rover in Chennai,8.0,52000,2023,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 04:04:46.511695,Used
-2013 Used Hyundai Santa Fe in Chennai,5.0,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 04:04:46.511695,Used
-2018 Used Hyundai Creta in Chennai,8.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 04:04:46.511695,Creta
 2019 Used Jeep Compass in Chennai,20.0,26000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 04:04:46.511695,Compass
+2013 Used Hyundai Santa Fe in Chennai,5.0,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 04:04:46.511695,Used
+2023 Used BMW 3-Series in Chennai,3.0,19720,2023,Unknown,https://www.carwale.com/used/chennai/bmw-3-series/k0bjak5t/,CarWale,2026-04-18 04:04:46.511695,Used
 2014 Used Mercedes-Benz GL-Class in Chennai,5.0,105000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-18 04:04:39.295691,Used
-2018 Used Hyundai Creta in Chennai,20.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 04:04:39.295691,Creta
 2017 Used Maruti Suzuki Swift in Chennai,8.0,78759,2023,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 04:04:39.295691,Swift
 2011 Used Skoda Fabia in Chennai,3.0,26000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 04:04:39.295691,Used
 Maruti Suzuki,12.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 04:04:39.295691,Suzuki
+2018 Used Hyundai Creta in Chennai,20.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 04:04:39.295691,Creta
+2023 Used Land Rover Range Rover in Chennai,7.99,52000,2023,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 04:04:31.447495,Used
 2023 Used BMW 3-Series in Chennai,0.45,19720,2023,Unknown,https://www.carwale.com/used/chennai/bmw-3-series/k0bjak5t/,CarWale,2026-04-18 04:04:31.447495,Used
 2019 Used Jeep Compass in Chennai,8.0,26000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 04:04:31.447495,Compass
-2023 Used BMW XM in Chennai,7.99,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 04:04:31.447495,Used
-2013 Used Hyundai Santa Fe in Chennai,0.45,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 04:04:31.447495,Used
+2011 Used Skoda Fabia in Chennai,5.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 04:04:31.447495,Used
 2014 Used Mercedes-Benz GL-Class in Chennai,12.0,110000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-gl-class/mu6gqohi/,CarWale,2026-04-18 04:04:31.447495,Used
 2018 Used Hyundai Creta in Chennai,3.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 04:04:31.447495,Creta
-2011 Used Skoda Fabia in Chennai,5.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 04:04:31.447495,Used
-2023 Used Land Rover Range Rover in Chennai,7.99,52000,2023,Unknown,https://www.carwale.com/used/chennai/honda-amaze/25y420td/,CarWale,2026-04-18 04:04:31.447495,Used
+2023 Used BMW XM in Chennai,7.99,21321,2023,Unknown,https://www.carwale.com/used/chennai/bmw-xm/qzudydg7/,CarWale,2026-04-18 04:04:31.447495,Used
+2013 Used Hyundai Santa Fe in Chennai,0.45,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 04:04:31.447495,Used
 2018 Used Jeep Compass in Chennai,20.0,67000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0b9rpy5b/,CarWale,2026-04-18 03:51:58.669733,Compass
 2018 Used Mercedes-Benz E-Class in Chennai,3.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 03:51:58.669733,Used
-Maruti Suzuki,0.45,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 03:51:43.618254,Suzuki
-2017 Used Maruti Suzuki Swift in Chennai,20.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 03:51:43.618254,Swift
-2018 Used Hyundai Creta in Chennai,7.99,26000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 03:51:43.618254,Creta
 2018 Used Mercedes-Benz E-Class in Chennai,8.0,55000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-e-class/wsz9ia1l/,CarWale,2026-04-18 03:51:43.618254,Used
 2017 Used Jeep Compass in Chennai,5.0,67000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0b9rpy5b/,CarWale,2026-04-18 03:51:43.618254,Compass
 Mercedes-Benz,12.0,78759,2023,Unknown,https://www.carwale.com/used/chennai/maruti-suzuki-swift/3442o1kd/,CarWale,2026-04-18 03:51:43.618254,Mercedes-Benz
+2018 Used Hyundai Creta in Chennai,7.99,26000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0cdphwob/,CarWale,2026-04-18 03:51:43.618254,Creta
+2017 Used Maruti Suzuki Swift in Chennai,20.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 03:51:43.618254,Swift
+Maruti Suzuki,0.45,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 03:51:43.618254,Suzuki
+2018 Used Jeep Compass in Chennai,8.0,59000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/jszfs0a2/,CarWale,2026-04-18 03:37:48.660736,Compass
+2017 Used Maruti Suzuki Swift in Chennai,3.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 03:37:48.660736,Swift
 Maruti Suzuki,5.0,104000,2023,Unknown,https://www.carwale.com/used/chennai/skoda-fabia/e1fjhgu5/,CarWale,2026-04-18 03:37:48.660736,Suzuki
 2018 Used Mercedes-Benz E-Class in Chennai,20.0,55000,2023,Unknown,https://www.carwale.com/used/chennai/mercedes-benz-e-class/wsz9ia1l/,CarWale,2026-04-18 03:37:48.660736,Used
-2017 Used Maruti Suzuki Swift in Chennai,3.0,65000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-creta/q92dyu00/,CarWale,2026-04-18 03:37:48.660736,Swift
-2018 Used Jeep Compass in Chennai,8.0,59000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/jszfs0a2/,CarWale,2026-04-18 03:37:48.660736,Compass
 2017 Used Jeep Compass in Chennai,12.0,67000,2023,Unknown,https://www.carwale.com/used/chennai/jeep-compass/0b9rpy5b/,CarWale,2026-04-18 03:37:48.660736,Compass
 2014 Used Mercedes-Benz GL-Class in Chennai,0.45,105000,2023,Unknown,https://www.carwale.com/used/chennai/hyundai-santa-fe/7hha1kqq/,CarWale,2026-04-18 03:37:34.406708,Used
 Mercedes-Benz,7.99,28000,2023,Unknown,https://www.carwale.com/used/chennai/land-rover-range-rover/d8ucze9x/,CarWale,2026-04-18 03:37:34.406708,Mercedes-Benz
